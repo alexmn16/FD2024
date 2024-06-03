@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Spinner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .spinner-container {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="spinner-container">
+    <loading-spinner></loading-spinner>
+</div>
+
+<div class="spinner-container">
+    <loading-spinner size="100px" color="#FF5733" speed="2s"></loading-spinner>
+</div>
+
+<div class="spinner-container">
+    <loading-spinner size="70px" color="#28A745" speed="0.5s"></loading-spinner>
+</div>
+
+<script src="loading-spinner.js"></script>
+</body>
+</html>
